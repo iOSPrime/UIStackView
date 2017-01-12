@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4876027A1E062478007C262D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487602791E062478007C262D /* AppDelegate.swift */; };
-		4876027C1E062478007C262D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876027B1E062478007C262D /* ViewController.swift */; };
 		4876027F1E062478007C262D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4876027D1E062478007C262D /* Main.storyboard */; };
 		487602821E062478007C262D /* UIStackView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 487602801E062478007C262D /* UIStackView.xcdatamodeld */; };
 		487602841E062478007C262D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 487602831E062478007C262D /* Assets.xcassets */; };
 		487602871E062478007C262D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487602851E062478007C262D /* LaunchScreen.storyboard */; };
 		487602921E062478007C262D /* UIStackViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487602911E062478007C262D /* UIStackViewTests.swift */; };
+		48D44A1D1E2689E000B79C91 /* TwitterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D44A1C1E2689E000B79C91 /* TwitterTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,6 @@
 /* Begin PBXFileReference section */
 		487602761E062478007C262D /* UIStackView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIStackView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		487602791E062478007C262D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4876027B1E062478007C262D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4876027E1E062478007C262D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		487602811E062478007C262D /* UIStackView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UIStackView.xcdatamodel; sourceTree = "<group>"; };
 		487602831E062478007C262D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		4876028D1E062478007C262D /* UIStackViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIStackViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		487602911E062478007C262D /* UIStackViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewTests.swift; sourceTree = "<group>"; };
 		487602931E062478007C262D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D44A1C1E2689E000B79C91 /* TwitterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				487602791E062478007C262D /* AppDelegate.swift */,
-				4876027B1E062478007C262D /* ViewController.swift */,
 				4876027D1E062478007C262D /* Main.storyboard */,
 				487602831E062478007C262D /* Assets.xcassets */,
 				487602851E062478007C262D /* LaunchScreen.storyboard */,
 				487602881E062478007C262D /* Info.plist */,
 				487602801E062478007C262D /* UIStackView.xcdatamodeld */,
+				48D44A1C1E2689E000B79C91 /* TwitterTableViewController.swift */,
 			);
 			path = UIStackView;
 			sourceTree = "<group>";
@@ -204,7 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4876027C1E062478007C262D /* ViewController.swift in Sources */,
+				48D44A1D1E2689E000B79C91 /* TwitterTableViewController.swift in Sources */,
 				487602821E062478007C262D /* UIStackView.xcdatamodeld in Sources */,
 				4876027A1E062478007C262D /* AppDelegate.swift in Sources */,
 			);
@@ -414,6 +414,7 @@
 				487602981E062478007C262D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		487602991E062478007C262D /* Build configuration list for PBXNativeTarget "UIStackViewTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +423,7 @@
 				4876029B1E062478007C262D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
